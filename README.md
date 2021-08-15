@@ -1,2 +1,2 @@
-# vero-decisions
-A repository for all of the decisions around the approval, rejection, or revocation of VEROs
+# VERO Decisions
+This repository contains all of the decisions around the approval, rejection, or revocation of VEROs. The working idea for the process is that after a new token is minting against the VERO smart contract, the VERO information will be posted here as a new pull request to gather community feedback on whether the token meets all of the criteria to become a VERO. After a period of time and debate, a decision will be made, which is reflected as a commit to the pull request and will be merged into the main branch effectively codifying the decision.
