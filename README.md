@@ -12,8 +12,8 @@ Decisions should be transparent and exist indefinitely without the need for excl
 be important to you. Recording those decisions shouldn't be overly burdensome else the people making the decisions will
 decide to take an easier route - not doing it. In the software development world, there is a streamlined process for
 recording decisions called *Architectural Decision Records*, or *ADRs*. ADRs are lightweight, point-in-time records of a
-decision and the surrounding context that others understand why it was made. This is very much the same time of
-rationale that we want to record with decisions around approving, rejecting, or revoking VEROs.
+decision and the surrounding context that others understand why it was made. This is the same intent we have to record
+decisions around approving, rejecting, or revoking VEROs.
 
 If you're interested in reading a well-conceived article around applying ADRs to all types of decisions, which inspired
 me to apply them here, read this article (2nd part) from [Olaf Zimmermann](https://ozimmer.ch/about/) titled
