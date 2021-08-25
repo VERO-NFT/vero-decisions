@@ -3,9 +3,9 @@
 * Status: [proposed | rejected | accepted | deprecated | … | superseded by [ADR-000005](000005-example.md)]
 * Deciders: [list everyone involved in the decision]
 * Date: [YYYY-MM-DD when the decision was last updated]
-
-VERO token ID: **[token ID]** <!-- optional (for VERO status decisions only) -->
-Decided VERO status: **[approved | rejected | revoked]** <!-- optional (for VERO status decisions only) -->
+---
+* VERO token ID: **[token ID]** <!-- optional (for VERO status decisions only) -->
+* Decided VERO status: **[approved | rejected | revoked]** <!-- optional (for VERO status decisions only) -->
 
 ## Context and Problem Statement
 
