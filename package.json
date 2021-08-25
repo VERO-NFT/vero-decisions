@@ -1,0 +1,24 @@
+{
+  "name": "vero-decisions",
+  "version": "1.0.0",
+  "description": "Decision records for all VERO decisions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update_adr": "adr-log -d decisions/ > index.md ; mv -f index.md decisions/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VERO-NFT/vero-decisions.git"
+  },
+  "author": "Joe Cora",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VERO-NFT/vero-decisions/issues"
+  },
+  "homepage": "https://github.com/VERO-NFT/vero-decisions#readme",
+  "devDependencies": {
+    "adr-log": "^2.2.0",
+    "madr": "^2.1.2"
+  }
+}
