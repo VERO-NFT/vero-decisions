@@ -28,7 +28,7 @@ me to apply them here, read this article (2nd part) from [Olaf Zimmermann](https
 1. Run `npm install` from the repo root folder.
 2. Create a new branch off of the `main` branch. For VERO status decisions, ideally include the token ID in the branch
    name.
-3. Copy the decision record template file, `template.md`, and paste the file with a new name into the `decisions`
+3. Copy the decision record template file, `template.md`, and paste the file with a new name into the `docs`
    folder. Follow the file name conventions for the project, which are as follows:
     1. Use the next number in the decision record sequence, e.g., `000034`.
     2. If for a decision on the status of a VERO, include the token ID after the word `token`, e.g., `token27`.
@@ -36,7 +36,7 @@ me to apply them here, read this article (2nd part) from [Olaf Zimmermann](https
 4. Update the new decision record with as many relevant details as possible. Reflect the best encapsulation of the
    factors in play that led to the decision. Follow the clues present in the template file to guide how the decision is
    recorded. The best advice to use is to be honest and clear.
-5. Run `npm run update_adr` to refresh the decision records list in the `decisions` folder.
+5. Run `npm run update_adr` to refresh the decision records list in the `docs` folder.
 6. Commit your changes and push up the branch. Create a pull request (PR) with the new decision branch changes.
 7. After approval and merging of the PR, the VERO will be updated on the blockchain to the status reflected in the
    decision record, if it was related to a VERO. This step is done manually right now by the VERO Admin Account but may
