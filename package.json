@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "update_adr": "adr-log -d decisions/ > index.md ; mv -f index.md decisions/"
+    "update_adr": "adr-log -d docs/ > index.md ; mv -f index.md docs/"
   },
   "repository": {
     "type": "git",
